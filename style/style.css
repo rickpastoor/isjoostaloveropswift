@@ -5,6 +5,15 @@ body {
   background-position: center;
   background-size: cover;
   color: #fff;
+
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: zoom-in-out;
+  animation-name: zoom-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 * {
@@ -177,5 +186,20 @@ body:before {
     transform: rotate3d(0, 0, 1, 0deg);
     top:100%;
     left:100%;
+  }
+}
+
+
+@keyframes zoom-in-out {
+  0% {
+    background-size: 100%;
+  }
+
+  50% {
+    background-size: 120%;
+  }
+
+  100% {
+    background-size: 100%;
   }
 }
