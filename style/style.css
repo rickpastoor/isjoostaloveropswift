@@ -6,8 +6,8 @@ body {
   background-size: cover;
   color: #fff;
 
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: zoom-in-out;
